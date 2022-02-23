@@ -1,6 +1,6 @@
 #/bin/bash
 if [ x"$1" = x ]; then
-    echo "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿?"
+    echo " = = need table name"
     exit 1
 fi
 echo "Started dump.sh"
@@ -41,7 +41,7 @@ read -r -p "Are You Sure? [Y/n] " input
 case $input in
 [yY][eE][sS] | [yY])
     mysql -uroot -ppengyouking -h192.168.1.243  -D${database}<~/102_conf.sql
-    echo "Ê¹ÓÃ 102_conf.sql $1 »Ö¸´Êý¾Ý¿â:${database} ³É¹¦"
+    echo "ä½¿ç”¨ 102_conf.sql $1 æ¢å¤æ•°æ®åº“:${database} æˆåŠŸ"
     ;;
 
 [nN][oO] | [nN])
