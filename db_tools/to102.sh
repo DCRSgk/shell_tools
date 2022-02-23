@@ -1,6 +1,6 @@
 #/bin/bash
 if [ x"$1" = x ]; then
-    echo " = = need table name"
+    echo " = = need table name!!"
     exit 1
 fi
 echo "Started dump.sh"
