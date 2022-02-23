@@ -15,7 +15,7 @@ wait $pid
 echo "Completed dump.sh"
 
 echo "Started sync_to_database.sh"
-./sync_to_database.sh 107 &
+./sync_to_database.sh 107
 pid=$!
 wait $pid
 echo "Completed sync_to_database.sh " $1
